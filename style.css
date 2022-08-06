@@ -1,6 +1,42 @@
 body{
+    background-color: #FFEEF9;
+    color: #484848;
+    font-style: normal;
 
 }
 a{
     color: red;
+    text-decoration: none;
+}
+.first{
+   margin-left: 25%;
+    width: 50%;
+    text-align: center;
+    
+}
+.two_buttons{
+
+
+}
+.button_a{
+    padding: 15px;
+    background-color: red;
+    color: white;
+    margin: 7.5px;
+}
+.button_a:hover{
+    background-color: white;
+    color: red;
+    border-color: red;
+}
+.button_b{
+    padding: 15px;
+    background-color: white;
+    color: red;
+    border-color: red;
+    margin: 7.5px;
+}
+.button_b:hover{
+    background-color: red;
+    color: white;
 }

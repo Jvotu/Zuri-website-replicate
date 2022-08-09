@@ -1,5 +1,5 @@
 body{
-    background-color: #FFEEF9;
+    background-color: white;
     color: #484848;
     font-style: normal;
 
@@ -9,20 +9,19 @@ a{
     text-decoration: none;
 }
 .first{
-   margin-left: 25%;
+    background-color: #FFFAFA;
+    height: 700px;  
+}
+.first_text{
+    margin-left: 25%;
     width: 50%;
     text-align: center;
-    
-}
-.two_buttons{
-
-
 }
 .button_a{
     padding: 15px;
     background-color: red;
     color: white;
-    margin: 7.5px;
+    margin: 1%;
 }
 .button_a:hover{
     background-color: white;
@@ -34,9 +33,55 @@ a{
     background-color: white;
     color: red;
     border-color: red;
-    margin: 7.5px;
+    margin: 1%;
 }
 .button_b:hover{
     background-color: red;
     color: white;
+}
+.second{
+    background-color: white;
+}    
+.second_text{
+    width: 30%;
+    text-align: center;
+    margin-left: 35%;
+}
+.rouge{
+    color: red;
+}
+.third{
+    display: flex;
+}
+.third_a{
+    background-color: #FFFAFA;
+    width: 32%;
+    margin: 2%;
+    height: 500px;
+}
+.third_a_text{
+    margin: 10%;
+    ;
+}
+.blank{
+    height: 200px;
+}
+.fourth{
+    display: flex;
+}
+.fourthx img{
+    width: 10%;
+}
+.fourth_a{
+    width: 23%;
+    margin: 2%;
+    height: 200px;
+}
+.sizing{
+    width: 50%;
+    height: auto;
+    background-size: contain;   
+}
+.fifth{
+    text-align: center;
 }

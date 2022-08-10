@@ -1,0 +1,105 @@
+body{
+    background-color: #FFFFFA;
+    font-weight: lighter;
+    font-size: 1.5em;
+}
+a{
+    text-decoration: none;
+    color: #484848;
+}
+.first{
+    display: flex;
+    position: fixed;
+    margin-bottom: 100px;  
+     
+}
+.first_aa{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.first_a{
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 200px;
+    
+}
+.first_ab img{
+    width: 80%;
+    ;
+}
+.blank{
+    height: 200px;
+}
+.second{
+    display: flex;
+}
+.second_b{
+    width: 40%;
+    text-align: center;
+}
+.second_a{
+    width: 30%;
+}
+.second_a img{
+    width: 300px;
+}
+.red{
+    color: red;
+}
+.second_b_l{
+    display: flex;
+    align-content: center;
+}
+.second_b_b{
+    color: black;
+    
+}
+.red_but{
+    color: white;
+    background-color: red;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+} 
+.second_b_m img{
+    width: 70%
+
+}
+.second_c{
+    width: 30%;
+}
+.second_c img{
+    width: 300px;
+}
+.green{
+    color: green;
+    text-decoration: underline;
+    
+}
+.third{
+    display: flex;
+}
+.third_a{
+    width: 35%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.wire{
+    margin-left: 30%;
+}
+.wire img{
+    width: 100px;
+}
+.fourth{
+    display: flex;
+}
+.fourth_a{
+    width: 50%;
+    margin: 5%;
+}
+.star{
+    margin-top: 100px;
+}
+.star img{
+    width: 60%;
+}

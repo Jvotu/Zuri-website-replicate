@@ -1,5 +1,5 @@
 body{
-    background-color: #FFFFFA;
+    background-color: rgb(255, 253, 245);
     font-weight: lighter;
     font-size: 1.5em;
 }
@@ -8,6 +8,7 @@ a{
     color: #484848;
 }
 .first{
+    background-color: rgb(255, 253, 245);
     display: flex;
     position: fixed;
     margin-bottom: 100px;  
@@ -103,3 +104,53 @@ a{
 .star img{
     width: 60%;
 }
+.fifth{
+    display: flex;
+}
+.fifth_a{
+    border-radius: 20px;
+    width: 28%;
+    height:400px;
+    margin:1%;
+    background-color: red;
+    color: white;
+}
+.fifth_b{
+    border-radius: 20px;
+    width: 28%;
+    height:400px;
+    margin:1%;
+    background-color: white;
+    color: black;
+}
+.red_c img{
+    width: 100px;
+    float: right;
+}
+.fifth_text{
+    margin: 10%;
+    text-align: center;
+}
+.sixth{
+    background-color: red;
+    height: 700px;
+    color: white;
+}
+.sixth_a{
+    width: 40%;
+    margin: 5%;
+
+}
+.sixth_b img{
+    width: 100px;
+    color: white;
+}
+.white_but{
+    color: red;
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+} 

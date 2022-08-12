@@ -133,17 +133,20 @@ a{
 }
 .sixth{
     background-color: red;
-    height: 700px;
+    height: 920px;
     color: white;
+    display: flex;
 }
 .sixth_a{
     width: 40%;
     margin: 5%;
 
 }
+.sixth_b{
+    margin-left: 40px;
+}
 .sixth_b img{
-    width: 100px;
-    color: white;
+    width: 70px;
 }
 .white_but{
     color: red;
@@ -154,3 +157,83 @@ a{
     padding-bottom: 10px;
     border-radius: 30px;
 } 
+.sixth_aa{
+    display: flex;
+}
+.sixth_ab{
+    border-radius: 50px;
+    border-color: white;
+    width: 200px;
+    height: 70px;
+    margin-top: 40px; 
+    text-align: center;
+    background-color: red;
+    color: white;
+    margin-right: 20px;
+    cursor: no-drop;
+}
+.sixth_aba img{
+    width: 40px;
+    margin: 10px;
+}
+.flexx{
+    display: flex;
+}
+.sixth_abb{
+    margin-top: 30px;
+}
+.sixth_abb img{
+    width: 120px;
+}
+.sixth_c{
+    width: 60px;
+    margin-top: 80px;
+}
+.sixth_c img{
+    width: 600px;
+}
+.seventh{
+    margin: 50px;
+}
+.seventh_a{
+    width: 40%;    
+}
+.seventh_b{
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
+.seventh_b img{
+    width: 120px;
+    margin-left: 45%;
+}
+.seventh_c{
+    background-color: white;
+    height: 330px;
+    width: 32%;
+    padding: 5px;
+    margin-right: 1%;
+    border-radius: 50px;
+    margin: 10px;
+}
+.seventh_d{
+    margin: 40px;
+    text-align: center;
+
+}
+.seventh_e{
+    display: flex;
+}
+.normal img{
+    width: 40px;
+    margin: 5px;
+}
+.small img{
+    width: 65px;
+    margin: 5px;
+}
+.seventh_f{
+    margin-left: 44%;
+  
+}
+

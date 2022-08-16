@@ -78,7 +78,7 @@ a{
     text-decoration: underline;
     
 }
-.third{
+#third{
     display: flex;
 }
 .third_a{
@@ -92,7 +92,7 @@ a{
 .wire img{
     width: 100px;
 }
-.fourth{
+#fourth{
     display: flex;
 }
 .fourth_a{
@@ -193,7 +193,7 @@ a{
 .sixth_c img{
     width: 600px;
 }
-.seventh{
+#seventh{
     margin: 50px;
 }
 .seventh_a{

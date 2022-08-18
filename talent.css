@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-weight: lighter;
+    font-size: 1.5em;
+    color: #484848;
+}
+a{
+    color: #484848;
+}
+.un{
+    display: flex;
+    margin-left: 75px;
+    margin-left: 75px;
+    margin-bottom: 30px;
+}
+.flexx{
+    display: flex;
+}
+.fifty_p{
+    width: 40%;
+    margin-top: 20px;
+}
+.un_a{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.un_a a:hover{
+    text-decoration-color: red;
+}
+.un_b{
+    background-color: red;
+    color: white;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    position: relative;
+    bottom: -20px;
+    user-select: none;
+    border-color: red; 
+}
+.un_b .popuptext{
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+.un_b .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+}

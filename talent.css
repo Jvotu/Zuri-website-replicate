@@ -7,6 +7,12 @@ body{
 a{
     color: #484848;
 }
+h1{
+    color: black;
+}
+h2{
+    color: black;
+}
 .un{
     display: flex;
     margin-left: 75px;
@@ -27,7 +33,7 @@ a{
 .un_a a:hover{
     text-decoration-color: red;
 }
-.un_b{
+.popup{
     background-color: red;
     color: white;
     text-align: center;
@@ -38,23 +44,113 @@ a{
     user-select: none;
     border-color: red; 
 }
-.un_b .popuptext{
+.popup .popuptext{
     visibility: hidden;
     width: 160px;
-    background-color: #555;
-    color: #fff;
+    background-color: white;
+    color: #484848;
     text-align: center;
     border-radius: 6px;
     padding: 8px 0;
     position: absolute;
     z-index: 1;
-    bottom: 125%;
+    bottom: -125%;
     left: 50%;
     margin-left: -80px;
 }
-.un_b .show {
+.popup .show {
     visibility: visible;
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s;
-  }
+}
+.red{
+    color: red;
+}
+.black{
+    color: black;
+}
+.un_b{
+    margin-top: 100px;
+    width: 60%;
+}
+.un_c{
+    margin-left: 15%;    
+}
+.un_d{
+    width: 60%;
+}
+.un_e{
+    margin-top: 70px;
+}
+.un_e img{
+    width: 375px;
+}
+.deux{
+    display: flex;
+    background-image: url(bgsection2.063bd869082548bafa74.png);
+    padding-bottom: 100px;
+}
+.deux_a{
+    width: 40%;
+    margin-top: 100px;
+    margin-left: 7.5%;
+}
+.deux_b{
+    background-color: white;
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.deux_c{
+    margin-top: 100px;
+}
+.deux_c img{
+    width: 450px;
+}
+.trois{
+    margin-left: 7.5%;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+.trois_a{
+    width: 35%;
+}
+.trois_b{
+    height: 60px;
+    width: 200px;
+    background-color: white;
+    border-color: aliceblue;
+    border-radius: 5px;
+    margin-right: 20px;
+    color: #484848;
+}
+.trois_c{
+    padding: 20px;
+    background-color: white;
+    border-color: aliceblue;
+    border-radius: 5px;
+    margin-right: 20px;
+    color: #484848;
+}
+.quatre{
+    background-color: rgb(255, 248,229);
+    padding-top: 70px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+.centre{
+    text-align: center;
+}
+.quatre_a{ 
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    margin: 10px;
+    
+}
+.quatre_a :hover{
+    background-color: black;
+    color: white;
+    padding: 20px;
 }
